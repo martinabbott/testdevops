@@ -39,4 +39,4 @@ jobs:
         with:
           azure-devops-project-url: 'https://dev.azure.com/CompetitiveDad/Test%20DevOps'
           azure-pipeline-name: 'martinabbott.testdevops' # name of the Azure pipeline to be triggered
-          azure-devops-token: '${{ secrets.mscgvmuksvtx6idetrmks6vocupiookjkagftw4srpzldhda2g2q }}'
+          azure-devops-token: '${{ secrets.AZURE_DEVOPS_TOKEN }}'
